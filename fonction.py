@@ -36,4 +36,4 @@ def testhelp(nb,max=10):
         print(i +1 ,"*",nb,"=",(i +1) * nb)
         i += 1
 help(testhelp)
-#test
+#test2
