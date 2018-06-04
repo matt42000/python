@@ -35,5 +35,19 @@ def testhelp(nb,max=10):
     while i < max:
         print(i +1 ,"*",nb,"=",(i +1) * nb)
         i += 1
-help(testhelp)
+# help(testhelp) # affiche le docstring
 #test2
+
+def carre(valeur):
+    return valeur * valeur
+
+mavariable = carre(6)
+print(mavariable)
+
+f = lambda x: x * x
+print(f(25))
+print(f(-5))
+
+f = lambda x,y: x+y
+print(f(1,2)) 
+
